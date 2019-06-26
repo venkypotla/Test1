@@ -11,6 +11,8 @@ namespace MVCGITEXAMPLE.Controllers
         // GET: Demo
         public ActionResult Index()
         {
+           ViewBag.Name="venky";
+           ViewBag.Age=23
             return View();
         }
     }
