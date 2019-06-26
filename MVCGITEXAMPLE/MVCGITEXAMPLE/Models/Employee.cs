@@ -7,5 +7,9 @@ namespace MVCGITEXAMPLE.Models
 {
     public class Employee
     {
+        public int add(int x, int y)
+        {
+            return x + y;
+        }
     }
 }
